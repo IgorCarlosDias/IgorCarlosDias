@@ -1,29 +1,49 @@
-# 🌿 Bem-vindo ao meu GitHub!  
+<h1 align="center">Olá, eu sou o Igor Carlos Dias 👋</h1>
+<p align="center">
+  Analista de Sistemas | Rumo ao Backend Development 🚀
+</p>
 
-Olá! Meu nome é Igor Carlos Dias, sou biólogo com pós-graduação em Manejo e Recuperação de Fauna e Flora, apaixonado por unir ciência e tecnologia para contribuir com a conservação ambiental. 🚀  
+🧭 Sobre mim
 
-## 👨‍🔬 Sobre mim  
-- 🎓 Formado em Biologia e especializado em manejo e recuperação de fauna e flora.  
-- 💻 Estudando Análise e Desenvolvimento de Sistemas.  
-- 🌱 Desenvolvo projetos que conectam tecnologia e meio ambiente. 
 
-### 🖥️ **Linguagens:**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+💻 Analista de Sistemas com atuação ampla em infraestrutura de TI, suporte, implantação de sistemas MES e integrações via API.
+🔧 Experiência prática com SQL Server, otimização de queries, integração com ERP via REST APIs/Webhooks, e automações com Node-RED e PowerShell.
+🔭 Migrando meu foco para Backend Development, aprofundando em Python e FastAPI.
+📈 Vivência com metodologias Scrum/Kanban e boas práticas ITIL.
+🌱 Formado em Análise e Desenvolvimento de Sistemas (USJT), com background prévio em Ciências Biológicas.
 
-### 🛠️ **Frameworks e Bibliotecas:**  
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)  
-![Node-RED](https://img.shields.io/badge/Node--RED-8F0000?style=for-the-badge&logo=nodered&logoColor=white)  
 
-### 💾 **Banco de Dados:**  
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)  
 
-## 🌟 Vamos nos conectar!  
-- [LinkedIn](https://www.linkedin.com/in/igordias96/)  
-- [Portfólio](https://portfolio-aryb.vercel.app/)  
-- Entre em contato pelo [igor.carlos96@hotmail.com](mailto:igor.carlos96@hotmail.com).  
+🛠️ Stack principal
 
-🌱 Obrigado por visitar o meu perfil!  
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node--RED-8F0000?style=flat&logo=nodered&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" />
+</p>
+
+
+📫 Como me encontrar
+
+<p align="left">
+  <a href="https://igor-dias.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfólio-000000?style=flat&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/SEU_LINKEDIN" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:igor.carlos96@hotmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
+  </a>
+</p>
