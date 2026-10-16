@@ -87,10 +87,10 @@ perfil:
 
 ---
 
-## 🎮 Telemetria de Contribuições // Cyberpunk 3D
+## 👻 Contribuições // Pac-Man Arcade
 
 <div align="center">
-  <img src="./assets/contributions-3d.svg" width="100%" alt="Cyberpunk Isometric 3D GitHub Contributions" />
+  <img src="./assets/pacman-contributions.svg" width="100%" alt="Pac-Man GitHub Contributions Arcade" />
 </div>
 
 ---

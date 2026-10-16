@@ -1,4 +1,4 @@
-name: Generate Cyberpunk 3D Contributions
+name: Generate Pac-Man Contributions
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  update-3d-graph:
+  update-pacman-graph:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -20,17 +20,17 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Generate Cyberpunk Isometric 3D SVG
+      - name: Generate Pac-Man Arcade SVG
         env:
           GITHUB_USERNAME: ${{ github.repository_owner }}
-        run: node .github/scripts/generate-cyberpunk-3d.mjs
+        run: node .github/scripts/generate-pacman.mjs
 
       - name: Commit and Push if updated
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/contributions-3d.svg
+          git add assets/pacman-contributions.svg
           if ! git diff --cached --quiet; then
-            git commit -m "chore: update Cyberpunk 3D contributions map [skip ci]"
+            git commit -m "chore: update Pac-Man contributions graph [skip ci]"
             git push
           fi
