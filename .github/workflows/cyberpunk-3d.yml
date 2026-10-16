@@ -1,0 +1,36 @@
+name: Generate Cyberpunk 3D Contributions
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-3d-graph:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate Cyberpunk Isometric 3D SVG
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: node .github/scripts/generate-cyberpunk-3d.mjs
+
+      - name: Commit and Push if updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions-3d.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update Cyberpunk 3D contributions map [skip ci]"
+            git push
+          fi

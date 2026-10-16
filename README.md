@@ -87,6 +87,14 @@ perfil:
 
 ---
 
+## 🎮 Telemetria de Contribuições // Cyberpunk 3D
+
+<div align="center">
+  <img src="./assets/contributions-3d.svg" width="100%" alt="Cyberpunk Isometric 3D GitHub Contributions" />
+</div>
+
+---
+
 <div align="center">
   <p>
     💡 <i>"Unindo a precisão analítica da ciência à engenharia de software e automação de sistemas."</i>
