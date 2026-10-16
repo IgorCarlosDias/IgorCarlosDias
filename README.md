@@ -24,17 +24,17 @@
 
 Profissional de Tecnologia da Informação com **+5 anos de trajetória** na intersecção entre **infraestrutura crítica, banco de dados, automação industrial e engenharia de software**.
 
-- 🏭 **Atuação Atual (`GTR Consultoria`):** Analista de Sistemas **MES (*Manufacturing Execution Systems*)**, garantindo alta disponibilidade, integração e inteligência operacional em chão de fábrica.
+- 💻 **Sistemas & Infraestrutura:** Analista de Sistemas com atuação ampla em infraestrutura de TI, suporte, implantação de sistemas MES e integrações via API.
 - 🗄️ **Dados & Integrações:** Experiência sólida na criação e otimização de queries, índices e *stored procedures* em **SQL Server**, além de integrações bidirecionais com ERPs via **APIs RESTful e Webhooks**.
 - ⚙️ **Automação & Back-End:** Desenvolvimento de soluções e APIs resilientes com **Python (FastAPI / Flask)** e **Node.js (Express)**, orquestração de fluxos em **Node-RED**, scripts **PowerShell** e utilitários nativos em **C# / Win32**.
 - 🧬 **Visão Interdisciplinar:** Graduado em **Análise e Desenvolvimento de Sistemas (USJT)** com formação prévia em **Ciências Biológicas**, unindo raciocínio investigativo, análise empírica de dados e arquitetura de software.
-- 📋 **Governança & Cultura Ágil:** Vivência consolidada com **Scrum / Kanban (Jira)** e gestão de serviços baseada nas boas práticas **ITIL** (com passagens anteriores pela **Dell Technologies** e **HP**).
+- 📋 **Governança & Cultura Ágil:** Vivência consolidada com metodologias **Scrum / Kanban (Jira)** e gestão de serviços baseada nas boas práticas **ITIL**.
 
 ```yaml
 perfil:
   nome: "Igor Carlos Dias"
   localizacao: "São Paulo, SP - Brasil"
-  cargo_atual: "Analista de Sistemas MES @ GTR Consultoria"
+  atuacao: "Analista de Sistemas & Desenvolvedor Back-End"
   foco_tecnico:
     - "Back-End Development (Python, FastAPI, Node.js, SQL)"
     - "Integrações de Sistemas (REST APIs, Webhooks, ERP/MES)"
