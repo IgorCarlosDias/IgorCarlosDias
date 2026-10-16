@@ -87,16 +87,6 @@ perfil:
 
 ---
 
-## 💼 Trajetória Profissional
-
-| Período | Cargo | Empresa | Destaques |
-| :--- | :--- | :--- | :--- |
-| **Dez 2022 – Atual** | **Analista de Sistemas MES** | **GTR Consultoria** | Sustentação e implantação de sistemas MES industriais, otimização de queries **SQL Server**, integrações ERP via **REST APIs/Webhooks**, automações com **Node-RED & PowerShell** e deploy em **IIS**. |
-| **Jan 2021 – Set 2022** | **Analista de Suporte de TI** | **Dell Technologies** | Suporte enterprise avançado em ambientes **Windows Server e Linux**, diagnóstico de redes **TCP/IP, LAN/WAN/DNS** e gestão de incidentes sob práticas **ITIL**. |
-| **Fev 2018 – Jun 2018** | **Analista de Suporte de TI** | **Hewlett Packard (HP)** | Diagnóstico remoto de hardware/firmware corporativo, parametrização de sistemas operacionais e resolução preventiva de incidentes. |
-
----
-
 <div align="center">
   <p>
     💡 <i>"Unindo a precisão analítica da ciência à engenharia de software e automação de sistemas."</i>
