@@ -1,0 +1,120 @@
+<svg width="800" height="285" viewBox="0 0 800 285" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="800" y2="285" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#08090e"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="800" y2="285" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.25"/>
+    </linearGradient>
+    <clipPath id="barClip">
+      <rect x="28" y="64" width="744" height="12" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #f8fafc; }
+    .subtitle { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #94a3b8; }
+    .lang-name { font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e2e8f0; }
+    .lang-pct { font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdf8; }
+
+    @keyframes growBar {
+      0% { transform: scaleX(0); }
+      100% { transform: scaleX(1); }
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(4px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.85; }
+      50% { opacity: 1; }
+    }
+
+    .bar-anim {
+      transform-box: fill-box;
+      transform-origin: left center;
+      animation: growBar 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    .row-1 { animation: fadeIn 0.5s ease-out 0.1s both; }
+    .row-2 { animation: fadeIn 0.5s ease-out 0.2s both; }
+    .row-3 { animation: fadeIn 0.5s ease-out 0.3s both; }
+    .row-4 { animation: fadeIn 0.5s ease-out 0.4s both; }
+    .row-5 { animation: fadeIn 0.5s ease-out 0.5s both; }
+
+    .bar-1 { animation-delay: 0.15s; }
+    .bar-2 { animation-delay: 0.25s; }
+    .bar-3 { animation-delay: 0.35s; }
+    .bar-4 { animation-delay: 0.45s; }
+    .bar-5 { animation-delay: 0.55s; }
+
+    .dot-pulse { animation: pulseGlow 2.5s ease-in-out infinite; }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="1" y="1" width="798" height="283" rx="12" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="28" y="36" class="title">📊 Linguagens Mais Usadas</text>
+  <text x="772" y="36" text-anchor="end" class="subtitle">Repositórios Públicos • GitHub</text>
+
+  <!-- Segmented Overview Bar -->
+  <rect x="28" y="64" width="744" height="12" rx="6" fill="#1e293b"/>
+  <g clip-path="url(#barClip)" class="bar-anim">
+    <rect x="28" y="64" width="239.42" height="12" fill="#000080"/>
+    <rect x="267.42" y="64" width="207.43" height="12" fill="#563d7c"/>
+    <rect x="474.85" y="64" width="125.59" height="12" fill="#e34c26"/>
+    <rect x="600.44" y="64" width="105.65" height="12" fill="#f1e05a"/>
+    <rect x="706.09" y="64" width="65.91" height="12" fill="#3572A5"/>
+  </g>
+
+  <!-- Lua: 32.18% -->
+  <g class="row-1">
+    <circle cx="34" cy="108" r="5" fill="#000080" stroke="#38bdf8" stroke-width="1.2" class="dot-pulse"/>
+    <text x="48" y="112" class="lang-name">Lua</text>
+    <rect x="150" y="102" width="540" height="10" rx="5" fill="#1e293b"/>
+    <rect x="150" y="102" width="173.77" height="10" rx="5" fill="#38bdf8" class="bar-anim bar-1"/>
+    <text x="772" y="112" text-anchor="end" class="lang-pct">32.18%</text>
+  </g>
+
+  <!-- CSS: 27.88% -->
+  <g class="row-2">
+    <circle cx="34" cy="142" r="5" fill="#563d7c" class="dot-pulse"/>
+    <text x="48" y="146" class="lang-name">CSS</text>
+    <rect x="150" y="136" width="540" height="10" rx="5" fill="#1e293b"/>
+    <rect x="150" y="136" width="150.55" height="10" rx="5" fill="#8b5cf6" class="bar-anim bar-2"/>
+    <text x="772" y="146" text-anchor="end" class="lang-pct">27.88%</text>
+  </g>
+
+  <!-- HTML: 16.88% -->
+  <g class="row-3">
+    <circle cx="34" cy="176" r="5" fill="#e34c26" class="dot-pulse"/>
+    <text x="48" y="180" class="lang-name">HTML</text>
+    <rect x="150" y="170" width="540" height="10" rx="5" fill="#1e293b"/>
+    <rect x="150" y="170" width="91.15" height="10" rx="5" fill="#f97316" class="bar-anim bar-3"/>
+    <text x="772" y="180" text-anchor="end" class="lang-pct">16.88%</text>
+  </g>
+
+  <!-- JavaScript: 14.20% -->
+  <g class="row-4">
+    <circle cx="34" cy="210" r="5" fill="#f1e05a" class="dot-pulse"/>
+    <text x="48" y="214" class="lang-name">JavaScript</text>
+    <rect x="150" y="204" width="540" height="10" rx="5" fill="#1e293b"/>
+    <rect x="150" y="204" width="76.68" height="10" rx="5" fill="#eab308" class="bar-anim bar-4"/>
+    <text x="772" y="214" text-anchor="end" class="lang-pct">14.20%</text>
+  </g>
+
+  <!-- Python: 8.86% -->
+  <g class="row-5">
+    <circle cx="34" cy="244" r="5" fill="#3572A5" class="dot-pulse"/>
+    <text x="48" y="248" class="lang-name">Python</text>
+    <rect x="150" y="238" width="540" height="10" rx="5" fill="#1e293b"/>
+    <rect x="150" y="238" width="47.84" height="10" rx="5" fill="#3b82f6" class="bar-anim bar-5"/>
+    <text x="772" y="248" text-anchor="end" class="lang-pct">8.86%</text>
+  </g>
+</svg>

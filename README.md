@@ -95,6 +95,14 @@ perfil:
 
 ---
 
+## 📊 Linguagens Mais Usadas
+
+<div align="center">
+  <img src="./assets/top-languages.svg" width="100%" alt="Linguagens Mais Usadas no GitHub" />
+</div>
+
+---
+
 <div align="center">
   <p>
     💡 <i>"Unindo a precisão analítica da ciência à engenharia de software e automação de sistemas."</i>
